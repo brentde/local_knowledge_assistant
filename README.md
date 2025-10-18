@@ -20,28 +20,6 @@ This project is designed to provide a practical, end-to-end overview of modern A
 
 ---
 
-## 🧩 System Architecture
-
-
----
-
-## ⚙️ Technologies Used
-
-| Category | Tool / Library | Purpose |
-|-----------|----------------|----------|
-| **Language** | Python 3.10+ | Core development |
-| **Frontend** | [Streamlit](https://streamlit.io/) | Interactive chat UI |
-| **Backend** | [FastAPI](https://fastapi.tiangolo.com/) or Flask | API + MCP server |
-| **LLM** | OpenAI API, Anthropic Claude, or [Ollama](https://ollama.ai/) | Generative response engine |
-| **Vector Store** | [ChromaDB](https://www.trychroma.com/) | Store and retrieve embeddings |
-| **Embeddings** | `text-embedding-3-small` or `sentence-transformers` | Encode document chunks |
-| **Text Extraction** | `PyPDF2` or `pdfplumber` | Extract text from PDFs |
-| **Data Handling** | `pandas`, `tiktoken`, `numpy` | Preprocessing and chunking |
-| **MCP SDK** | [Model Context Protocol SDK](https://github.com/modelcontextprotocol/python-sdk) | Serve context via protocol |
-| **Optional** | `langchain` | Helper for retrieval and prompt chaining |
-
----
-
 ## ⚙️ Technologies Used
 
 | Category | Tool / Library | Purpose |
