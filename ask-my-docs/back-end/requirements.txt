@@ -1,9 +1,6 @@
-fastapi
-uvicorn[standard]
-chromadb
-openai
-python-multipart
-pdfplumber
-pydantic
+fastapi, 
+uvicorn, 
+chromadb, 
+openai, 
+pdfplumber,
 python-dotenv
-requests
